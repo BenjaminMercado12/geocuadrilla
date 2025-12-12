@@ -1,0 +1,31 @@
+name: flutter_geocuadrilla
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  google_maps_flutter: ^2.5.0 
+  geolocator: ^14.0.2
+  flutter_secure_storage: ^9.2.4
+  dart_amqp: ^0.3.1
+  provider: ^6.1.5+1
+  # Dependencias adicionales según la guía
+  http: ^1.1.0
+  logger: ^2.0.2
+  aad_oauth: ^1.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Imagenes/
